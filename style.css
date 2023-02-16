@@ -13,34 +13,35 @@ body {
 }
 
 header {
-	background-color: white;
+	background-color: #ffffff;
 }
 
-header .container {
+.container-elementos-header {
 	display: flex;
 	justify-content: space-between;
-	width: 1200px;
-	margin: 0 auto;
+	width: 1280px;
 	height: 80px;
+	margin: 0 auto;
+	padding: 20px 0;
 	align-items: center;
 }
 
-header .container h1 {
+.titulo-principal {
 	color: #0000EE;
 	font-size: 24px;
 }
 
-header .container label {
+.label-pesquisa {
 	display: flex;
 	height: 40px;
 	padding: 8px;
 	gap: 4px;
-	border-radius: 8px;
+	border-radius: 4px;
 	background: #DB1E8C;
 	align-items: center;
 }
 
-header .container label input{
+.input-pesquisa{
 	background: #DB1E8C;
 	border: none;
 	outline: none;
@@ -48,4 +49,101 @@ header .container label input{
 
 ::placeholder {
 	color: #FF97D3;
+}
+
+.container-main {
+	display: flex;
+	width: 1280px;
+	margin: 0 auto;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 31.25%;
+	height: 444.74px;
+	background-color: #F5F5F5;
+	border-radius: 4px;
+	margin-top: 40px;
+	padding: 32px;
+	position: relative;
+}
+
+.titulo-card {
+	color: #364372;
+	font-size: 24px;
+}
+
+.texto-card {
+	font-size: 16px;
+	margin-top: 24px;
+
+}
+
+.botao-card {
+	display: flex;
+	width: 136px;
+	height: 48px;
+	border: 1px solid #264FEC;
+	border-radius: 4px;
+	align-items: center;
+	font-size: 14px;
+	justify-content: center;
+	text-decoration: none;
+	position: absolute;
+	bottom: 32px;
+}
+
+.botao-card:hover {
+	background-color: #264FEC;
+	color: #ffffff;
+}
+
+footer {
+	background-color: #ffffff;
+	margin-top: 140px;
+}
+
+.container-footer {
+	width: 1280px;
+	height: 110px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logos {
+	display: flex;
+	width: 212.47px;
+	height: 62px;
+	justify-content: space-between;
+}
+
+.informacoes {
+	display: flex;
+	align-items: center;
+	width: 319.05px;
+	justify-content: space-between;
+}
+
+.informacoes a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #000000;
+}
+
+.container-links-1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.container-links-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 }
