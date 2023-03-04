@@ -1,24 +1,36 @@
 
-# Página programa Desenvolve - GB
-Uma página estática simples, criada a partir do design figma, para fins educativos.
-
-Desafio mentoria Alura.
+# Página do Programa Desenvolve (Grupo Boticário) - Desafio Mentoria
+Página de releitura do contendo as trilhas do Programa Desenvolve.
 
 
 
 
 
+
+## Screenshot
+
+#### Desktop
+![](./screenshot.png)
+
+#### Mobile
+![](./screenshot2.png)
 ## Stack utilizada
 
-**Front-end:** HTML5, CSS3, Figma
+- HTML5 
+- CSS3
+- Flexbox
+- Mobile-first
 
 
 ## Aprendizados
 
-Criação de uma Web Page, partindo de um design Figma, baseado nas trilhas do programa Desenvolve 2023.
+•	Estruturar uma página responsiva partindo do design Figma
 
-Página de referência : https://desenvolve.grupoboticario.com.br
+•	Versionar o código e subir para repositório no Git Hub
+
+•	Hospedar a página com o GitHub Pages
+
+
 ## Demonstração
 
-https://danilo-tx.github.io/HTML-CSS-Desafio-Trilhas-GB/
-
+https://danilo-tx.github.io/HTML-CSS-TrilhasDesenvolve-DesafioMentoria/
